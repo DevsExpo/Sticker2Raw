@@ -1,0 +1,7 @@
+telethon
+cryptg
+heroku3
+psycopg2
+requests
+Pillow
+telegraph

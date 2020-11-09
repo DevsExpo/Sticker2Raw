@@ -1,0 +1,38 @@
+{
+  "name": "StickerToIMGbot",
+  "description": "Simple Sticker To Image Bot in Telethon.",
+  "logo": "https://images.discordapp.net/avatars/224415693393625088/8f6a0ca7e883f87241b02ba8e1328f34.png",
+  "keywords": [
+    "telegram",
+    "torrent",
+    "plugin",
+    "telegram-bot",
+    "productivity"
+  ],
+  "repository": "https://github.com/StarkGang/StickerToIMGBot",
+  "website": "starkgang.ml",
+  "success_url": "t.me/FridayOT",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable heroku.",
+      "value": "ANYTHING"
+    },
+    "BOT_TOKEN": {
+      "description": "Your Bot Token.",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
