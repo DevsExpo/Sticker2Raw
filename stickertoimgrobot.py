@@ -17,9 +17,6 @@ if not os.path.isdir(sedpath):
 async def handle_message(hmm: events.NewMessage.Event):
     is_as = is_it_animated_sticker(hmm)
     okz = hmm.id
-    if hmm.is_group:
-        print("Sed")
-        return
     if hmm.media:
         if not is_as:
             file_s = await stickertoimgbot.download_media(hmm.media, sedpath)
