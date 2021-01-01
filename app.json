@@ -9,7 +9,7 @@
     "telegram-bot",
     "productivity"
   ],
-  "repository": "https://github.com/StarkGang/StickerToIMGBot",
+  "repository": "https://github.com/DevsExpo/Sticker2Raw",
   "website": "starkgang.ml",
   "success_url": "t.me/FridayOT",
   "env": {
